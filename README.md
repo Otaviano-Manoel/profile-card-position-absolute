@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here]()
-- Live Site URL: [Live site URL here]()
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/position-absolute-uxBZVI6GmN)
+- Live Site URL: [Live site URL here](https://otaviano-manoel.github.io/profile-card-position-absolute/)
 
 ## My process
 
