@@ -94,12 +94,12 @@ body{
     text-align: center;
 }
 
-.card .status il{
+.card .status li{
     font-size: 1.4rem;
     color: var(--grayish-blue);
 }
 
-.card .status il .number{
+.card .status li .number{
     font-size: 2rem;
     font-weight: 700;
     color: #000;
