@@ -1,0 +1,30 @@
+@media (max-width: 1400px) {
+    .ball{
+        width: 900px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .ball.top{
+        top: -400px;
+        left: -400px;
+    }
+    .ball.bottom{
+        bottom: -450px;
+        right: -350px;
+    }
+}
+
+@media (max-width: 576px) {
+    .ball{
+        width: 525px;
+    }
+    .ball.top{
+        top: -250px;
+        left: -250px;
+    }
+    .ball.bottom{
+        bottom: -200px;
+        right: -250px;
+    }
+}

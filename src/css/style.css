@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--dark-cyan);
+    font-family: var(--font-family);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball{
+    position: fixed;
+    width: 950px;
+    z-index: -1;
+}
+
+.ball.top{
+    rotate: 45deg;
+    top: -450px;
+    left: -150px;
+}
+.ball.bottom{
+    bottom: -450px;
+    right: -150px;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.card .panel{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card .panel .bg{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card .panel .person{
+    position: absolute;
+    transform: translateY(50%);
+
+    border-radius: 100%;
+    border: #fff;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.card .info{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .info .name{
+    font: 1.8rem;
+}
+
+.card .info .name .date{
+    margin-left: 10px;
+    color: var(--grayish-blue);
+    font-weight: 400;
+}
+
+.card .info .city{
+    margin-top: 10px;
+    color: var(--grayish-blue);
+    font-size: 1.6rem;
+}
+
+.card .status{
+    margin-top: 20px;
+    padding: 30px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: var(--gray);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+}
+
+.card .status il{
+    font-size: 1.4rem;
+    color: var(--grayish-blue);
+}
+
+.card .status il .number{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+}
+
